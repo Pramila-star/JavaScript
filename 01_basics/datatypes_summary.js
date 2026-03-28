@@ -27,4 +27,28 @@ let myObj={
 
  console.log(typeof heroes); // object
  
- 
+ // ***************************************
+
+ // memory = 2 Types
+  // Stack (Primitive) , Heap (Non- Primitive)
+
+  let myName = "PramilaRai"
+
+  let anothername = myName
+  anothername = "PariRai"
+
+  console.log(myName);
+  console.log(anothername);
+  
+  let user1 = {
+    email: "user@google.com",
+    upi: "user@ybl"
+  }
+    let user2 = user1
+
+    user2.email = "pramila2google.com"
+
+    console.log(user1.email);
+    console.log(user2.email);
+    
+    
