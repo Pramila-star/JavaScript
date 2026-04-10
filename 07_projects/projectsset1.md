@@ -56,3 +56,13 @@ form.addEventListener('submit',function(e) {
        results.innerHTML = `<span>${bmi}</span>`
     }
 });
+
+## project 3
+
+...javascript
+ const clock = document.getElementById('clock');
+
+ setInterval(function (){
+    let date = new Date();
+    clock.innerHTML= date.toLocaleString();
+ }, 1000);
